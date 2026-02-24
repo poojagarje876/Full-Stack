@@ -1,0 +1,97 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ header{
+    height: 100px;
+    width: 100%;
+    /* background-color: darkmagenta; */
+    z-index: 1000;
+}
+.logo{
+    height: 100px;
+    width: 30%;
+    background-color: white;
+    float: left;
+    
+}
+nav{
+    height: 100px;
+    width: 70%;
+    float: left;
+}
+ .navbar{
+    list-style-type:none;
+ }
+ .navbar li a{
+    text-decoration: none;
+   float:left; 
+    padding:10px 30px;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 400; 
+    text-align: center;
+    color: black;
+ }
+  .navbar li a:hover{
+    color: #0000ff;
+    transform: scale(1.1);
+    transition:0.3s;
+  }
+  .homesection{
+    height: 800px;
+    width: 100%;
+    float: left;
+
+  }
+  .right{
+    height: 800px;
+    width: 60%;
+    float:left;
+    background: linear-gradient(to right,rgb(63,72,204) ,rgb(13, 85, 194)) ;
+    background-color: #3f48cc;
+  }
+  .left{
+    height: 800px;
+    width: 40%;
+    float:left;
+  }
+  h1{
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;  
+     padding-top: 200px;
+     font-size: 40px;
+     font-weight: 700;
+     z-index: 1000;
+     text-shadow: 1px 1px 1px white;
+  }
+  span{
+    font-size:20px; 
+    font-weight: 400;
+    text-shadow: none;
+  } 
+  .contactsection{ 
+  
+    height: 500px;
+    width: 500px;
+    /* position: absolute;
+    top:30px;
+    left: 100px; */
+    border: 2px black;
+    border-radius: 5px; 
+    float: left;
+  }
+  .container{
+    height: 400px;
+    width: 300px;
+    position: relative;
+    top: 100px;
+    left: 300px; 
+    background-color: rgb(234, 6, 255);
+    
+  }
+  #Name{
+    padding: 2px;
+    margin: 5px;
+  }

@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    
+    height: 80px;
+    
+}
+.logoImage{
+    margin-left:4% ;
+
+}
+.logo{
+    width: 53px;
+    height: 50px
+}
+.navbar{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+
+}
+.navbar ul li a{
+    display: inline-block;
+    text-decoration: none;
+}

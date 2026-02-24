@@ -1,0 +1,1158 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Div Assignment</title>
+</head>
+<style>
+    .a {
+        background-color: pink;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .b {
+        background-color: black;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .c {
+        background-color: greenyellow;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .d {
+        background-color: pink;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .a1 {
+        background-color: pink;
+        width: 100%;
+        height: 150px;
+        float: left;
+    }
+
+    .a2 {
+        background-color: purple;
+        width: 100%;
+        height: 150px;
+        float: left;
+    }
+
+    .a11 {
+        background-color: pink;
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+
+    .a12 {
+        background-color: purple;
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+
+    .a21 {
+        background-color: purple;
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+
+    .a22 {
+        background-color: pink;
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+
+    .b1 {
+        background-color: skyblue;
+        width: 95%;
+        height: 270px;
+        float: left;
+        margin: 10px;
+    }
+
+    .b11 {
+        background-color: black;
+        width: 80%;
+        height: 200px;
+        float: left;
+        margin: 40px;
+    }
+
+    .b111 {
+        background-color: skyblue;
+        width: 85%;
+        height: 150px;
+        float: left;
+        margin: 25px;
+    }
+
+    .b1111 {
+        background-color: black;
+        width: 75%;
+        height: 100px;
+        float: left;
+        margin: 30px;
+    }
+
+    .b11111 {
+        background-color: skyblue;
+        width: 80%;
+        height: 60px;
+        float: left;
+        margin: 20px;
+    }
+
+    .c1 {
+        background-color: blue;
+        width: 95%;
+        height: 270px;
+        float: left;
+        margin: 10px;
+    }
+
+    .c11 {
+        background-color: greenyellow;
+        width: 80%;
+        height: 200px;
+        float: left;
+        margin: 40px;
+    }
+
+    .c111 {
+        background-color: blue;
+        width: 85%;
+        height: 150px;
+        float: left;
+        margin: 25px;
+    }
+
+    .c1111 {
+        background-color: greenyellow;
+        width: 75%;
+        height: 100px;
+        float: left;
+        margin: 30px;
+    }
+
+    .c11111 {
+        background-color: blue;
+        width: 80%;
+        height: 60px;
+        float: left;
+        margin: 20px;
+    }
+
+    .d1 {
+        background-color: black;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .d2 {
+        background-color: palevioletred;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .d3 {
+        background-color: black;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .d4 {
+        background-color: palevioletred;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .d11 {
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d12 {
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d13 {
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d14 {
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d111 {
+        background-color: yellow;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d121 {
+        background-color: yellow;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d131 {
+        background-color: yellow;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d141 {
+        background-color: yellow;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d21 {
+        background-color: palevioletred;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d22 {
+        background-color: palevioletred;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d23 {
+        background-color: palevioletred;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d24 {
+        background-color: palevioletred;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d211 {
+        background-color: black;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d221 {
+        background-color: black;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d231 {
+        background-color: black;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d241 {
+        background-color: black;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d31 {
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d32 {
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d33 {
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d34 {
+        background-color: black;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d311 {
+        background-color: yellow;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d321 {
+        background-color: yellow;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d331 {
+        background-color: yellow;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d341 {
+        background-color: yellow;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d41 {
+        background-color: palevioletred;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d42 {
+        background-color: palevioletred;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d43 {
+        background-color: palevioletred;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d44 {
+        background-color: palevioletred;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .d411 {
+        background-color: black;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d421 {
+        background-color: black;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d431 {
+        background-color: black;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .d441 {
+        background-color: black;
+        width: 80%;
+        height: 50px;
+        float: left;
+        margin: 10px;
+    }
+
+    .e {
+        background-color: orange;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .f {
+        background-color: green;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .g {
+        background-color: gray;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .h {
+        background-color: purple;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .e1 {
+        background-color: orange;
+        width: 100%;
+        height: 60px;
+        float: left;
+    }
+
+    .e2 {
+        background-color: black;
+        width: 100%;
+        height: 60px;
+        float: left;
+    }
+
+    .e3 {
+        background-color: red;
+        width: 100%;
+        height: 60px;
+        float: left;
+    }
+
+    .e4 {
+        background-color: green;
+        width: 100%;
+        height: 60px;
+        float: left;
+    }
+
+    .e5 {
+        background-color: pink;
+        width: 100%;
+        height: 60px;
+        float: left;
+    }
+
+    .f1 {
+        background-color: green;
+        width: 100%;
+        height: 150px;
+        float: left;
+    }
+
+    .f2 {
+        background-color: orange;
+        width: 100%;
+        height: 150px;
+        float: left;
+    }
+
+    .f11 {
+        background-color: green;
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+
+    .f111 {
+        background-color: black;
+        width: 90%;
+        height: 250px;
+        float: left;
+        margin: 50px;
+    }
+
+    .f12 {
+        background-color: orange;
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+
+    .f21 {
+        background-color: orange;
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+
+    .f22 {
+        background-color: green;
+        width: 50%;
+        height: 150px;
+        float: left;
+    }
+
+    .f121 {
+        background-color: black;
+        width: 70%;
+        height: 250px;
+        float: left;
+        margin: 50px;
+        margin-left: 0px;
+
+    }
+
+    .f221 {
+        background-color: black;
+        height: 100px;
+        width: 90%;
+        float: left;
+        margin: 50px;
+        margin-top: 0px;
+    }
+
+    .f222 {
+        background-color: black;
+        height: 100px;
+        width: 70%;
+        float: left;
+        margin: 50px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .g1 {
+        background-color: gray;
+        width: 30%;
+        height: 300px;
+        float: left;
+    }
+
+    .g2 {
+        background-color: gray;
+        width: 35%;
+        height: 300px;
+        float: left;
+    }
+
+    .g3 {
+        background-color: gray;
+        width: 35%;
+        height: 300px;
+        float: left;
+    }
+
+    .g11 {
+        background-color: orange;
+        width: 70%;
+        height: 280px;
+        float: left;
+        margin: 10px;
+    }
+
+    .g21 {
+        background-color: orange;
+        width: 70%;
+        height: 280px;
+        float: left;
+        margin: 10px;
+    }
+
+    .g31 {
+        background-color: orange;
+        width: 70%;
+        height: 280px;
+        float: left;
+        margin: 10px;
+    }
+
+    .h1 {
+        background-color: purple;
+        width: 100%;
+        height: 100px;
+        float: left;
+    }
+
+    .h2 {
+        background-color: purple;
+        width: 100%;
+        height: 100px;
+        float: left;
+    }
+
+    .h3 {
+        background-color: purple;
+        width: 100%;
+        height: 100px;
+        float: left;
+    }
+
+    .h11 {
+        background-color: pink;
+        width: 90%;
+        height: 70px;
+        float: left;
+        margin: 20px;
+    }
+
+    .h21 {
+        background-color: pink;
+        width: 90%;
+        height: 70px;
+        float: left;
+        margin: 20px;
+    }
+
+    .h31 {
+        background-color: pink;
+        width: 90%;
+        height: 70px;
+        float: left;
+        margin: 20px;
+    }
+
+    .i {
+        background-color: grey;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .j {
+        background-color: lightslategray;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .k {
+        background-color: red;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .l {
+        background-color: lightgreen;
+        width: 25%;
+        height: 300px;
+        float: left;
+    }
+
+    .i1 {
+        background-color: purple;
+        width: 95%;
+        height: 270px;
+        float: left;
+        margin: 10px;
+    }
+
+    .i11 {
+        background-color: grey;
+        width: 80%;
+        height: 200px;
+        float: left;
+        margin: 40px;
+    }
+
+    .i111 {
+        background-color: purple;
+        width: 85%;
+        height: 150px;
+        float: left;
+        margin: 25px;
+    }
+
+    .i1111 {
+        background-color: grey;
+        width: 75%;
+        height: 100px;
+        float: left;
+        margin: 30px;
+    }
+
+    .i11111 {
+        background-color: purple;
+        width: 80%;
+        height: 60px;
+        float: left;
+        margin: 20px;
+    }
+
+    .j1 {
+        background-color: plum;
+        height: 250px;
+        width: 80%;
+        float: left;
+        margin: 50px;
+    }
+
+    .k1 {
+        background-color: red;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .k2 {
+        background-color: red;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .k3 {
+        background-color: red;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .k4 {
+        background-color: red;
+        width: 100%;
+        height: 75px;
+        float: left;
+    }
+
+    .k11 {
+        background-color: black;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k12 {
+        background-color: red;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k13 {
+        background-color: black;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k14 {
+        background-color: red;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k21 {
+        background-color: red;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k22 {
+        background-color: black;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k23 {
+        background-color: red;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k24 {
+        background-color: black;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k31 {
+        background-color: black;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k32 {
+        background-color: red;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k33 {
+        background-color: black;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k34 {
+        background-color: red;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k41 {
+        background-color: red;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k42 {
+        background-color: black;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k43 {
+        background-color: red;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+
+    .k44 {
+        background-color: black;
+        width: 25%;
+        height: 75px;
+        float: left;
+    }
+    .l1{
+        background-color: lightgreen;
+        width: 100%;
+        height: 50px;
+        float: left;
+        }
+        .l2{
+        background-color: lightgreen;
+        width: 100%;
+        height: 60px;
+        float: left;
+        }
+        .l3{
+        background-color: lightgreen;
+        width: 100%;
+        height: 60px;
+        float: left;
+        }
+        .l4{
+        background-color: lightgreen;
+        width: 100%;
+        height: 50px;
+        float: left;
+        }
+        .l5{
+        background-color: lightgreen;
+        width: 100%;
+        height: 50px;
+        float: left;
+        }
+        .l6{
+        background-color: lightgreen;
+        width: 100%;
+        height: 10px;
+        float: left;
+        }
+        .l61{
+        border-bottom: 30px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+         }
+          .l51{
+        border-bottom: 60px solid blue;
+        margin-left: 30px;
+        margin-right: 30px;
+         }
+       .l41{
+        border-bottom: 60px solid green;
+        margin-left: 70px;
+        margin-right: 70px;
+         }
+         .l31{
+        border-bottom: 60px solid red;
+        margin-left: 100px;
+        margin-right: 100px;
+         }
+         .l21{
+        border-bottom: 60px solid purple;
+        margin-left: 130px;
+        margin-right: 130px;
+         }
+         .l11{
+        border-bottom: 60px solid black;
+        margin-left: 160px;
+        margin-right: 160px;
+         }
+        
+</style>
+
+<body>
+
+    <!------------- first row------------------------------>
+
+    <div class="a">
+        <div class="a1">
+            <div class="a11"></div>
+            <div class="a12"></div>
+        </div>
+        <div class="a2">
+            <div class="a21">
+            </div>
+            <div class="a22">
+            </div>
+        </div>
+    </div>
+    <div class="b">
+        <div class="b1">
+            <div class="b11">
+                <div class="b111">
+                    <div class="b1111">
+                        <div class="b11111">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="c">
+        <div class="c1">
+            <div class="c11">
+                <div class="c111">
+                    <div class="c1111">
+                        <div class="c11111">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d">
+        <div class="d1">
+            <div class="d11">
+                <div class="d111"></div>
+            </div>
+            <div class="d12">
+                <div class="d121"></div>
+            </div>
+            <div class="d13">
+                <div class="d131"></div>
+            </div>
+            <div class="d14">
+                <div class="d141"></div>
+            </div>
+        </div>
+        <div class="d2">
+            <div class="d21">
+                <div class="d211"></div>
+            </div>
+            <div class="d22">
+                <div class="d221"></div>
+            </div>
+            <div class="d23">
+                <div class="d231"></div>
+            </div>
+            <div class="d24">
+                <div class="d241"></div>
+            </div>
+        </div>
+        <div class="d3">
+            <div class="d31">
+                <div class="d311"></div>
+            </div>
+            <div class="d32">
+                <div class="d321"></div>
+            </div>
+            <div class="d33">
+                <div class="d331"></div>
+            </div>
+            <div class="d34">
+                <div class="d341"></div>
+            </div>
+        </div>
+        <div class="d4">
+            <div class="d41">
+                <div class="d411"></div>
+            </div>
+            <div class="d42">
+                <div class="d421"></div>
+            </div>
+            <div class="d43">
+                <div class="d431"></div>
+            </div>
+            <div class="d44">
+                <div class="d441"></div>
+            </div>
+        </div>
+    </div>
+    <!------------------------second row------------------------------------------>
+    <div class="e">
+        <div class="e1"></div>
+        <div class="e2"></div>
+        <div class="e3"></div>
+        <div class="e4"></div>
+        <div class="e5"></div>
+    </div>
+    <div class="f">
+        <div class="f1">
+            <div class="f11">
+                <div class="f111"></div>
+            </div>
+            <div class="f12">
+                <div class="f121"></div>
+            </div>
+        </div>
+        <div class="f2">
+            <div class="f21">
+                <div class="f221"></div>
+            </div>
+            <div class="f22">
+                <div class="f222"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="g">
+        <div class="g1">
+            <div class="g11"></div>
+        </div>
+        <div class="g2">
+            <div class="g21"></div>
+        </div>
+        <div class="g3">
+            <div class="g31"></div>
+        </div>
+
+    </div>
+    <div class="h">
+        <div class="h1">
+            <div class="h11"></div>
+        </div>
+        <div class="h2">
+            <div class="h21"></div>
+        </div>
+        <div class="h3">
+            <div class="h31"></div>
+        </div>
+    </div>
+
+    <!------------------------third row---------------------------------------------->
+
+    <div class="i">
+        <div class="i1">
+            <div class="i11">
+                <div class="i111">
+                    <div class="i1111">
+                        <div class="i11111">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="j">
+        <div class="j1"></div>
+    </div>
+    <div class="k">
+        <div class="k1">
+            <div class="k11"></div>
+            <div class="k12"></div>
+            <div class="k13"></div>
+            <div class="k14"></div>
+        </div>
+        <div class="k2">
+            <div class="k21"></div>
+            <div class="k22"></div>
+            <div class="k23"></div>
+            <div class="k24"></div>
+        </div>
+        <div class="k3">
+            <div class="k31"></div>
+            <div class="k32"></div>
+            <div class="k33"></div>
+            <div class="k34"></div>
+        </div>
+        <div class="k4">
+            <div class="k41"></div>
+            <div class="k42"></div>
+            <div class="k43"></div>
+            <div class="k44"></div>
+        </div>
+    </div>
+    <div class="l">
+        <div class="l1">
+            <div class="l11"></div>
+        </div>
+         <div class="l2">
+             <div class="l21"></div>
+         </div>
+          <div class="l3">
+             <div class="l31"></div>
+          </div>
+           <div class="l4">
+             <div class="l41"></div>
+           </div>
+            <div class="l5">
+                 <div class="l51"></div>
+            </div>
+             <div class="l6">
+                 <div class="l61"></div>
+             </div>
+
+    </div>
+</body>
+
+</html>
