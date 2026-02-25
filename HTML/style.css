@@ -1,0 +1,475 @@
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: 3f48cc;
+    float: left;
+}
+
+.navbar {
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    float: left;
+    padding: 0%;
+    position: fixed;
+    top: 50px;
+    z-index: 1000;
+}
+
+
+.logo {
+    height: 100px;
+    width: 30%;
+    float: left;
+    background-color: #ffffff;
+}
+
+.logoimage {
+    margin: auto;
+    display: block;
+    animation: shake 0.3s;
+}
+
+.rightnavbar {
+    height: 100px;
+    width: 70%;
+    float: left;
+    /* background-color: antiquewhite; */
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.ul {
+    position: relative;
+}
+
+.ul li a {
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px 15px 15px 15px;
+}
+
+.ul li a:hover {
+    color: #1b62e7;
+    border-bottom: 5px solid #1b62e7;
+    text-shadow: 1px 1px 1px #1b62e7;
+}
+
+.dropdownmenu a {
+    /* background-color: pink; */
+    font-size: 10px;
+    font-weight: 400;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    border-bottom: dashed gray;
+    border-radius: 5px;
+}
+
+.dropdownmenu {
+
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    margin-top: 70px;
+    margin-left: 200px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    z-index: 2000;
+}
+
+.ul :hover .dropdownmenu {
+    display: block;
+}
+
+.dropdownmenu1 a {
+    /* background-color: pink; */
+    font-size: 10px;
+    font-weight: 400;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    border-bottom: dashed gray;
+
+}
+
+.dropdownmenu1 {
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    margin: 70px;
+    margin-left: 450px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+     z-index: 2000;
+}
+
+
+.ul :hover .dropdownmenu1 {
+    display: block;
+}
+
+.dropdownmenu2 a {
+    /* background-color: pink; */
+    font-size: 10px;
+    font-weight: 200;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    border-bottom: dashed gray;
+}
+
+.dropdownmenu2 {
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    margin-top: 70px;
+    margin-left: 590px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+ z-index: 2000;
+}
+
+.ul :hover .dropdownmenu2 {
+    display: block;
+}
+
+.dropdownmenu3 a {
+    /* background-color: pink; */
+    font-size: 10px;
+    font-weight: 400;
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    border-bottom: dashed gray;
+
+}
+
+.dropdownmenu3 {
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    margin-top: 70px;
+    margin-left: 900px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+ z-index: 2000;
+}
+
+.ul :hover .dropdownmenu3 {
+    display: block;
+}
+
+.h {
+    padding-top: 80px;
+    height: 700px;
+    width: 100%;
+    float: left;
+
+}
+
+.h1 {
+    height: 200px;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+.h11 {
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.h12 {
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.h13 {
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.h14 {
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.h2 {
+    float: left;
+    height: 700px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.h111 {
+    height: 180px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px gray;
+
+}
+
+.h112 {
+    height: 180px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px gray;
+    margin-top: 20px;
+}
+
+.h113 {
+
+    height: 180px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+
+.h114 {
+    height: 180px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 2px gray;
+    margin-top: 20px;
+}
+
+.h111:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: #1b62e7;
+}
+
+.h112:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: #1b62e7;
+}
+
+.h113:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: #1b62e7;
+}
+
+.h114:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: #1b62e7;
+}
+
+.h3 {
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+
+.h31 {
+    height: 700px;
+    width: 50%;
+    float: left;
+}
+
+.h32 {
+    height: 700px;
+    width: 30%;
+    float: left;
+}
+
+.h33 {
+    height: 700px;
+    width: 20%;
+    float: left;
+    background-color: red;
+}
+
+.h321 {
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+
+.h322 {
+    height: 250px;
+    width: 250px;
+    float: left;
+}
+
+.h323 {
+    height: 300px;
+    width: 250px;
+    float: left;
+}
+
+.h3211 {
+    height: 250px;
+    width: 90%;
+    float: left;
+
+}
+
+.h3212 {
+    height: 250px;
+    width: 90%;
+    float: left;
+
+}
+
+.h3221 {
+    height: 250px;
+    width: 90%;
+    float: left;
+
+}
+
+.h3222 {
+    height: 250px;
+    width: 90%;
+    float: left;
+
+}
+
+.h32111 {
+    height: 230px;
+    width: 95%;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 15px;
+}
+
+.h32121 {
+    height: 230px;
+    width: 95%;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 15px;
+}
+
+.h32211 {
+    height: 230px;
+    width: 95%;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 15px;
+}
+
+.h32222 {
+    height: 230px;
+    width: 95%;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 15px;
+}
+
+.h32111:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.h32121:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.h32211:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.h32222:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.h4{
+height: 300px;
+width: 100%;
+float: left;
+}
+.h5{
+    height: 300px;
+    width: 100%;
+    float: left;
+}
+.h51{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+}
+.h52{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+}
+.h53{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+}
+.h511{
+    height: 280px;
+    width: 90%;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 15px;
+}
+
+.h522{
+    height: 280px;
+    width: 90%;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 15px;
+}
+.h533{
+    height: 280px;
+    width: 90%;
+    border-radius: 16px;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-top: 15px;
+}
+.h511:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.h522:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.h533:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.h6{
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+.h7{
+    height: 200px;
+    width: 100%;
+    float: left;
+}
+.h8{
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+.h9{
+    height: 700px;
+    width: 100%;
+    float: left;
+}

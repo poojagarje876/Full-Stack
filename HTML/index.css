@@ -1,0 +1,192 @@
+
+/*--------------------------NavbarSection-----------------------------------------------*/
+
+.navbar{
+    background-color:whitesmoke;
+    height: 100px;
+    width: 100%;
+    float: left;
+    position: fixed;
+    
+}
+.left{
+    /* background-color: pink; */
+    height: 100px;
+    width: 30%;
+    float: left;
+}
+.logoImage{
+    height: 70px; 
+    width: 50%;
+    margin: 20px 0px 20px 80px;
+}
+.center{
+    /* background-color: red; */
+    height: 100px;
+    width: 45%;
+    float: left;
+}
+.right{
+    /* background-color: pink; */
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+.header{
+   list-style-type: none;
+}
+.header li a{
+    text-decoration: none;
+float: left;
+padding: 10px;
+font-size:40px;
+font-weight: 300;
+color: black;
+text-align: center;
+}
+.n1{
+    /* background-color: red; */
+    height: 100px;
+    width: 30%;
+    float: left;
+}
+.n2{
+    /* background-color: pink; */
+    height: 100px;
+    width: 70%;
+    float: left;
+}
+.n3{ 
+    border: none;
+    border-radius: 5px;
+    margin:40px;
+    color: green;
+background-color: aquamarine;
+font-size: bold; 
+padding: 10px;
+    
+}
+.n1 h1 a{
+    color: black;
+    font-size:40px;
+font-weight: 300;
+text-align: center;
+text-decoration: none;
+}
+/* .n2 n{
+    color:green;
+    font-size:40px;
+font-weight: 300;
+
+} */
+.header li a:hover{
+    color: blue; 
+    
+}
+.n1 h1 a:hover{
+    color: red;
+}
+.n3:hover{
+    color:blue;
+    background-color: white;
+}
+
+/*--------------------------HomeSection-----------------------------------------------*/
+
+.homeSection{
+    padding-top: 100px;
+    width: 100%;
+    height: 700px;
+    float: left;
+}
+.m{
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+
+/*--------------------------AboutSection-----------------------------------------------*/
+
+.aboutsection{
+     padding-top: 100px;
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+.n{
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 300px;
+    width: 100%;
+    float: left;
+}
+
+/*--------------------------FeatureSection-----------------------------------------------*/
+
+.featuresection{
+     padding-top: 100px;
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+.o{
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+
+/*--------------------------PricingSection-----------------------------------------------*/
+
+.PricingSection{
+     padding-top: 100px;
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+.p{
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+   float: left;
+}
+   .q{
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+.r{
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+
+/*--------------------------NewsSection-----------------------------------------------*/
+
+.NewsSection{
+     padding-top: 100px;
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 700px;
+    width: 100%;
+    float: left;
+}
+
+/*--------------------------ContactSection-----------------------------------------------*/
+
+.contactSection{
+     padding-top: 100px;
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 650px;
+    width: 100%;
+    float: left;
+}.u{
+/* background-color: rgba(173, 216, 230, 0.699); */
+    height: 400px;
+    width: 100%;
+    float: left;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title> form</title>
+</head>
+
+<body>
+    <!----------------form----------------------->
+    
+    <form action="register.php" method="post/get">
+        Name:<input type="text" pattern="{A-za-z}{20}" required><br><br>
+        Email:<input type="email" required><br><br>
+        Mobile:<input type="number" required><br><br>
+        Gender:<input type="radio" value="gender" name="male" checked>male
+        <input type="radio" value="gender" name="female">female <br><br>
+        course:<select>
+            <option> Select Your Course</option>
+            <option> FULL STACK</option>
+            <option>MERN STACK</option>
+            <option> MEAN STACK</option>
+        </select><br><br>
+        Address:<textarea></textarea><br><br>
+        Terms & Conditions:<input type="checkbox"><br><br>
+        Select File:<input type="file"><br><br>
+        <input type="submit" value="submit" name="submit">
+    </form>
+</boddy>
+</head>
