@@ -1,0 +1,89 @@
+.bgcolor{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.bgimage{
+    background-image:  url(logo.webp) ;
+    
+}
+.textProperty{
+    text-align: center;
+    /* text-align: justify; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-transform: capitalize; */
+    /* text-transform: lowercase; */
+    text-transform: uppercase;
+}
+.border{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    float: left;
+    border-radius: 2px solid red;
+    
+}
+   .opacity{
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+}
+.textShadow{ 
+    color: red;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+.boxShadow{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    float:"left";
+    display: block;
+    margin:auto; 
+    box-shadow:1px 1px 3px 3px gray
+}
+.dropdownbtn{
+    background-color: blue;
+    color: white;
+    border:none;
+    border-radius: 5px;
+}
+.dropdownmenu a{
+    color: white;
+    background-color: rgba(255, 0, 157,0.3);
+    padding: 10px;
+    display: block; 
+    text-decoration: none;
+   /* position: relative; */
+}
+.dropdownmenu{
+    position: absolute;
+    display: none;
+}
+.dropdown{ 
+    position: relative;
+}
+.dropdown:hover .dropdownmenu{
+    display: block;
+}
+.gradient{
+    height: 500px;
+    width: 50%;
+   background: linear-gradient(45deg,red,rgb(162, 0, 255));
+   float: left;
+}
+.gradient1{
+    height: 500px;
+    width: 50%;
+   background:radial-gradient(circle, white,blue) ;
+   float: left;
+}
+.card{
+    height: 220px;
+    width: 500px;
+    float: left;
+}
