@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mangalashatak Website</title>
+
+    <!------------------------External css------------------------------------------>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="external.css" rel="stylesheet" type="text/css">
+
+    <!---------------------------Extenal js------------------------------------------>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!---------------------------icon------------------------------------------>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body style="font-family: 'Open Sans', sans-serif;
+    font-weight: 400;">
+    <!-----------------------------------------Mangalashtak Website--------------------------------------------------------------->
+
+    <!-------------------------------------------Navbar----------------------------------------------------------------->
+    <navbar>
+        <div class="container bg-white" style="height:50px">
+            <div class="row">
+                <div class="col-md-6 ms-2 mt-2">
+                    <i class="bi bi-telephone-fill"></i>
+                    +91 80555 63000 | <i class="bi bi-envelope-fill"></i>
+                    info@mangalashtak.com
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid navbar navbar-expand-md justify-content-center ">
+            <div>
+                <img src="image.png" alt="logo" style="height:100px;"></img>
+            </div>
+            <ul class="navbar-nav ms-5">
+                <li class="nav-item pe-3"><a href="indexx.html" class="nav-link text-white">Home</a></li>
+                <li class="nav-item pe-3 ms-2" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    <a href="#" class="nav-link text-white">Login</a>
+                </li>
+                <li class="nav-item pe-3"><a href="register.html" class="nav-link text-white">Register</a></li>
+                <li class="nav-item pe-3"><a href="search.html" class="nav-link text-white">Search Option</a></li>
+                <li class="nav-item  pe-3"><a href="membership.html" class="nav-link text-white">Membership</a></li>
+                <li class="nav-item pe-3"><a href="contact.html" class="nav-link text-white">Contact Us</a></li>
+                <li class="nav-item pe-3"><a href="help.html" class="nav-link text-white">Help</a></li>
+            </ul>
+        </div>
+    </navbar>
+
+    <!---------------------------------------------LoginSection----------------------------------------------------------------->
+ <section class="loginSection">
+    <div class="container">
+        <div class="modal fade" id="loginModal">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header text-white" style="background-color: #e91e63;">
+                        <h5> Member login</h5>
+                        <button class=" btn btn-close text-white" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        So, Login if you're a member. if not, please register and<a href="#"
+                            style="text-decoration: none;"> become a member.</a>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <form>
+                                        <input type="email" class="form-control mt-3" placeholder="Email-ID">
+                                        <input type="password" class="form-control mt-3" placeholder="Password">
+                                        <input type="checkbox" class=" mt-3"> Remember me<br>
+                                        <button class="btn btn2 text-white mt-3">log
+                                            in</button>
+                                        <button class="btn btn3 text-white mt-3" >log in
+                                            with OTP</button>
+                                    </form>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="notmemberyet text-center p-4 m-3" style="background-color: #f4f4f4">
+                                        <p>Not a Member yet?</p>
+                                        <button class="btn text-white btn4" >Regishter
+                                            Now!(Free)</button>
+                                    </div>
+                                </div>
+                                <a href="#" class="text-center" style="text-decoration: none;">Forgot Password?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer" style="background-color: #e91e63;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!------------------------------------------------RegisterSection----------------------------------------------------------------->
+
+    <div class="container-fluid  " style="padding-top: 100px;">
+        <div class=" container-fluid" style="background-color:#880e4f; height:50px;width: 100%;" >
+            <h5 class=" pt-3 text-white" style="padding-left: 10%;">Registration</h5>
+        </div>
+        <div class="container">
+            <div class="card m-5 shadow-lg">
+                <div class="card-header" style="color:#df2d5f;">
+                    <h5>Basic Information</h5>
+                </div>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" class="form-control m-2">
+                                    <label for="" class="m-2">Gender</label> <br>
+                                    <input type="radio" class="m-2" name="gender" value="male">Male
+                                    <input type="radio" class="m-2" name="gender" value="female">Female<br>
+                                    <label for="" class="m-2">Marital Status</label> <br>
+                                    <input type="radio" class="m-2" id="Maritel Status" value=" unmarried" checked>
+                                    Unmaarried
+                                    <input type="radio" class="m-2" name="Maritel Status" value=" windo/windoer ">
+                                    widow/widower
+                                    <input type="radio" class="m-2" name="Maritel Status" value="Divorce"> Divorcee
+                                    <input type="radio" class="m-2" name="Maritel Status" value=" seprted">Seprated
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="lastname">Last Name</label>
+                                <input type="text" id="lastname" class="form-control m-2">
+                                <label class="m-2" for="">Date Of Birth</label>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <select class="form-control form-select">
+                                                <option value="">Month</option>
+                                                <option value="1">January</option>
+                                                <option value="2">February</option>
+                                                <option value="3">March</option>
+                                                <option value="4">April</option>
+                                                <option value="5">May</option>
+                                                <option value="6">June</option>
+                                                <option value="7">July</option>
+                                                <option value="8">August</option>
+                                                <option value="9">September</option>
+                                                <option value="10">October</option>
+                                                <option value="11">November</option>
+                                                <option value="12">December</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <select class="form-control form-select">
+                                                <option value="">-Date-</option>
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option>8</option>
+                                                <option>9</option>
+                                                <option>10</option>
+                                                <option>11</option>
+                                                <option>12</option>
+                                                <option>13</option>
+                                                <option>14</option>
+                                                <option>15</option>
+                                                <option>16</option>
+                                                <option>17</option>
+                                                <option>18</option>
+                                                <option>19</option>
+                                                <option>20</option>
+                                                <option>21</option>
+                                                <option>22</option>
+                                                <option>23</option>
+                                                <option>24</option>
+                                                <option>25</option>
+                                                <option>26</option>
+                                                <option>27</option>
+                                                <option>28</option>
+                                                <option>29</option>
+                                                <option>30</option>
+                                                <option>31</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <select class="form-control form-select">
+                                                <option>Year</option>
+                                                <option>1956</option>
+                                                <option>1957</option>
+                                                <option>1958</option>
+                                                <option>1959</option>
+                                                <option>1960</option>
+                                                <option>1961</option>
+                                                <option>1962</option>
+                                                <option>1963</option>
+                                                <option>1964</option>
+                                                <option>1965</option>
+                                                <option>1966</option>
+                                                <option>1967</option>
+                                                <option>1968</option>
+                                                <option>1969</option>
+                                                <option>1970</option>
+                                                <option>1971</option>
+                                                <option>1972</option>
+                                                <option>1973</option>
+                                                <option>1974</option>
+                                                <option>1975</option>
+                                                <option>1976</option>
+                                                <option>1977</option>
+                                                <option>1978</option>
+                                                <option>1979</option>
+                                                <option>1980</option>
+                                                <option>1981</option>
+                                                <option>1982</option>
+                                                <option>1983</option>
+                                                <option>1984</option>
+                                                <option>1985</option>
+                                                <option>1986</option>
+                                                <option>1987</option>
+                                                <option>1988</option>
+                                                <option>1989</option>
+                                                <option>1990</option>
+                                                <option>1991</option>
+                                                <option>1992</option>
+                                                <option>1993</option>
+                                                <option>1994</option>
+                                                <option>1995</option>
+                                                <option>1996</option>
+                                                <option>1997</option>
+                                                <option>1998</option>
+                                                <option>1999</option>
+                                                <option>2000</option>
+                                                <option>2001</option>
+                                                <option>2002</option>
+                                                <option>2003</option>
+                                                <option>2004</option>
+                                                <option>2005</option>
+                                                <option>2006</option>
+                                                <option>2007</option>
+                                                <option>2008</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label class="label-control m-2 ">Religion</label>
+                                <select class="form-control form-select">
+                                    <option>-select-</option>
+                                    <option>Hindu</option>
+                                    <option>Buddisth</option>
+                                    <option>Jain</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 pe-5">
+                                <label class="m-2">Cast</label>
+                                <select class=" form-select " style="background-color:#eeeeee">
+                                </select>
+                            </div>
+                            <div class="col-md-1"></div>
+                            <div class="col-md-4">
+                                <label class="label-control m-2">Sub-cast</label>
+                                <select class="form-control form-select" style="background-color:#eeeeee">
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card m-5 shadow-lg">
+                <div class="card-header">
+                    <h5 style="color:#df2d5f;">New Account Information</h5>
+                </div>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <form>
+                                    <label class="label-control m-2">Profile Created By</label>
+                                    <select class="form-control form-select">
+                                        <option>Select</option>
+                                        <option>Self</option>
+                                        <option>Parents</option>
+                                        <option>Brother</option>
+                                        <option>Sister</option>
+                                        <option>Friends</option>
+                                        <option>Relative</option>
+
+                                    </select>
+                                    <label class="label-control m-2">Email ID</label>
+                                    <input type="email" class="form-control">
+                                </form>
+                            </div>
+                            <div class="col-md-8"></div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label class="label-control m-2">Password</label>
+                                        <input type="pasword" class="form-control">
+                                        <label class="label-control m-2">Mobile Number</label>
+                                        <input type="number" class="form-control">
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label class="label-control m-2"> Conforrm Password</label>
+                                        <input type="pasword" class="form-control">
+                                        <label class="label-control m-2"> Altrnate Mobile Number</label>
+                                        <input type="number" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card m-5 shadow-lg">
+            <div class="card-header">
+                <h5 style="color:#df2d5f;">Socio Religius Attributes</h5>
+            </div>
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <form>
+                                <label class="label-control m-2"> Gotra</label>
+                                <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="label-control m-2">Moonsign</label>
+                            <select class="form-control form-select">
+                                <option>Does Not Matter</option>
+                                <option>Aries (Mesh)</option>
+                                <option>Taurus (Vrushabh)</option>
+                                <option>Gemini (Mithun)</option>
+                                <option>Cancer (Kark)</option>
+                                <option>Leo (Sinh)</option>
+                                <option>Virgo (Kanya)</option>
+                                <option>Libra (Tula)</option>
+                                <option>Scorpio (Vrishchik)</option>
+                                <option>Sagittarius (Dhanu)</option>
+                                <option>Capricorn (Makar)</option>
+                                <option>Aquarius (Kumbh)</option>
+                                <option>Pisces (Meen)</option>
+                            </select>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="label-control m-2">Horos Match </label><br>
+                            <input type="radio" class="m-2" name="horos match" value="no"checked>No
+                            <input type="radio" class="m-2" name="horos match" value="yes">Yes
+                            <input type="radio" class="m-2" name="horos match" value="not applicable">Not Applicable <br>
+                            <label class="label-control m-2">Manglik </label><br>
+                            <input type="radio" class="m-2" name="manglik" value="no"checked>No
+                            <input type="radio" class="m-2" name="manglik" value="yes">Yes
+                            <input type="radio" class="m-2" name="manglik" value="not applicable">Not
+                            Applicable
+                        </div>
+                        <div class="col-md-6"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="label-control m-2">Place of Birth</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col-md-6">
+                            <label class="label-control m-2">Time of Birth</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card m-5 shadow-lg">
+                <div class="card-header">
+                    <h5 style="color:#df2d5f;">Physical Attributes</h5>
+                </div>
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form>
+                                    <label class="label-control m-2">Height</label>
+                                    <select class="form-control form-select">
+                                        <option>-Select-</option>
+                                        <option>5ft 7in</option>
+                                        <option>5ft 8in</option>
+                                        <option>5ft 9in</option>
+                                        <option>5ft 10in</option>
+                                        <option>5ft 11in</option>
+                                        <option>6ft </option>
+                                        <option>6ft 1in</option>
+                                        <option>6ft 2in</option>
+                                        <option>6ft 3in</option>
+                                        <option>6ft 4in</option>
+                                        <option>6ft 5in</option>
+                                        <option>6ft 6in</option>
+                                        <option>6ft 7in</option>
+                                        <option>6ft 8in</option>
+                                        <option>6ft 9in</option>
+                                        <option>6ft 10in</option>
+                                        <option>6ft 11in</option>
+                                        <option>7ft</option>
+                                        <option> Above 7ft</option>
+                                        <option>Does Not Matter</option>
+
+                                    </select>
+                                    <label class="label-control m-2">Blood Group</label>
+                                    <select class="form-control form-select">
+                                        <option>-Select-</option>
+                                        <option>A+</option>
+                                        <option>A-</option>
+                                        <option>B+</option>
+                                        <option>B-</option>
+                                        <option>AB+</option>
+                                        <option>AB-</option>
+                                        <option>O+</option>
+                                        <option>O-</option>
+
+                                    </select>
+                                    <label class="label-control m-2">Physical Status <span>*</span></label><br>
+                                    <input class="m-2" type="radio" name="Physical Status" value="noraml" checked>Normal
+                                    <input class="m-2" type="radio" name="Physical Status"  value="Physical Challenged">Physical Challenged <br>
+                                    <label class="label-control m-2">Body Type </label> <br>
+                                    <input class="m-2" type="radio" name="Body type" value="slim">Slim
+                                    <input class="m-2" type="radio" name="Body type" value="Average" checked>Average
+                                    <input class="m-2" type="radio" name="Body type" value="Athletic">Athletic
+                                    <input class="m-2" type="radio" name="Body type" value="Heavy">Heavy <br>
+                                    <label class="label-control m-2">Diet</label>
+                                    <select class="form-control form-select">
+                                        <option>veg</option>
+                                        <option> Occasionaly Non-Veg</option>
+                                        <option>Eggetarian</option>
+                                        <option>Non-Veg</option>
+                                        <option>Jain</option>
+                                        <option>Vegan</option>
+                                    </select>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label class="label-control m-2">Smoke</label><br>
+                                                <input class="m-2" type="radio" value="no" checked>No
+                                                <input class="m-2" type="radio" value="yes">Yes
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="label-control m-2">Drink:</label><br>
+                                                <input class="m-2" type="radio" value="no" checked>No
+                                                <input class="m-2" type="radio" alue="yes">Yes <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="checkbox" class="m-2 mb-3">
+                                    <label style="color: #28b4de;">I Accept Term And Conditions</label><br>
+                                </form>
+                            </div>
+                            <div class="col-md-6">
+                                <form>
+                                    <label class="label-control m-2">Weight</label>
+                                    <select class="form-control form-select">
+                                        <option>-Select-</option>
+                                        <option>41 kg</option>
+                                        <option>42 kg</option>
+                                        <option>43 kg</option>
+                                        <option>44 kg</option>
+                                        <option>45 kg</option>
+                                        <option>46 kg</option>
+                                        <option>47 kg</option>
+                                        <option>48 kg</option>
+                                        <option>49 kg</option>
+                                        <option>50 kg</option>
+
+                                        <option>51 kg</option>
+                                        <option>52 kg</option>
+                                        <option>53 kg</option>
+                                        <option>54 kg</option>
+                                        <option>55 kg</option>
+                                        <option>56 kg</option>
+                                        <option>57 kg</option>
+                                        <option>58 kg</option>
+                                        <option>59 kg</option>
+                                        <option>60 kg</option>
+
+                                        <option>61 kg</option>
+                                        <option>62 kg</option>
+                                        <option>63 kg</option>
+                                        <option>64 kg</option>
+                                        <option>65 kg</option>
+                                        <option>66 kg</option>
+                                        <option>67 kg</option>
+                                        <option>68 kg</option>
+                                        <option>69 kg</option>
+                                        <option>70 kg</option>
+
+                                        <option>71 kg</option>
+                                        <option>72 kg</option>
+                                        <option>73 kg</option>
+                                        <option>74 kg</option>
+                                        <option>75 kg</option>
+                                        <option>76 kg</option>
+                                        <option>77 kg</option>
+                                        <option>78 kg</option>
+                                        <option>79 kg</option>
+                                        <option>80 kg</option>
+
+                                        <option>81 kg</option>
+                                        <option>82 kg</option>
+                                        <option>83 kg</option>
+                                        <option>84 kg</option>
+                                        <option>85 kg</option>
+                                        <option>86 kg</option>
+                                        <option>87 kg</option>
+                                        <option>88 kg</option>
+                                        <option>89 kg</option>
+                                        <option>90 kg</option>
+
+                                        <option>91 kg</option>
+                                        <option>92 kg</option>
+                                        <option>93 kg</option>
+                                        <option>94 kg</option>
+                                        <option>95 kg</option>
+                                        <option>96 kg</option>
+                                        <option>97 kg</option>
+                                        <option>98 kg</option>
+                                        <option>99 kg</option>
+                                        <option>100 kg</option>
+
+                                        <option>101 kg</option>
+                                        <option>102 kg</option>
+                                        <option>103 kg</option>
+                                        <option>104 kg</option>
+                                        <option>105 kg</option>
+                                        <option>106 kg</option>
+                                        <option>107 kg</option>
+                                        <option>108 kg</option>
+                                        <option>109 kg</option>
+                                        <option>110 kg</option>
+
+                                        <option>111 kg</option>
+                                        <option>112 kg</option>
+                                        <option>113 kg</option>
+                                        <option>114 kg</option>
+                                        <option>115 kg</option>
+                                        <option>116 kg</option>
+                                        <option>117 kg</option>
+                                        <option>118 kg</option>
+                                        <option>119 kg</option>
+                                        <option>120 kg</option>
+
+                                        <option>121 kg</option>
+                                        <option>122 kg</option>
+                                        <option>123 kg</option>
+                                        <option>124 kg</option>
+                                        <option>125 kg</option>
+                                        <option>126 kg</option>
+                                        <option>127 kg</option>
+                                        <option>128 kg</option>
+                                        <option>129 kg</option>
+                                        <option>130 kg</option>
+
+                                        <option>131 kg</option>
+                                        <option>132 kg</option>
+                                        <option>133 kg</option>
+                                        <option>134 kg</option>
+                                        <option>135 kg</option>
+                                        <option>136 kg</option>
+                                        <option>137 kg</option>
+                                        <option>138 kg</option>
+                                        <option>139 kg</option>
+                                        <option>140 kg</option>
+
+                                    </select>
+                                    <label class="label-control m-2">Weight</label>
+                                    <select class="form-control form-select">
+                                        <option>-Select-</option>
+                                        <option>Very Fair</option>
+                                        <option>Fair</option>
+                                        <option>Wheatish</option>
+                                        <option>Wheatish Medium</option>
+                                        <option>Wheatish Brown</option>
+                                        <option>Dark</option>
+                                    </select>
+                                </form>
+                            </div><br>
+                            <hr><br>
+                            <div class="text-center">
+                                <button type="submit" class="btn text-white px-4 btn5" >
+                                    Submit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------------Footer----------------------------------------------------------------->
+
+ <footer>
+        <div class="container-fluid fttop text-white p-5 " style="background-color: #2e2e2e;">
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-3">
+                    <h4 class="">Mangalashtak.com</h4>
+                    <hr>
+                    <p style="color:#c7cccc;">
+                        Mangalashtak.com, the leading Marathi Matrimony <br>
+                        service provider for the Marathi community has the <br>
+                        network in 6 Districts across Maharashtra Now. with <br>
+                        a well mannered and traditional associates to assist <br>
+                        you in search for a partner. <br>
+                    </p>
+                </div>
+                <div class="col-md-2">
+                    <h4 class="">About us</h4>
+                    <hr>
+                    <p class="ft" >About Mangalashtak.Com>> </p>
+                    <p  class="ft">Contact Us>> </p>
+                    <p  class="ft">Sitemap>> </p>
+                </div>
+                <div class="col-md-2">
+                    <h4>Information</h4>
+                    <hr>
+                    <p  class="ft">Terms Of Use>> </p>
+                    <p  class="ft">Privacy Poilicy>> </p>
+                    <p  class="ft" >Help>> </p>
+                    <p  class="ft">Contact Us>> </p>
+                </div>
+                <div class="col-md-2 ">
+                    <h4 class="">Our TVC</h4>
+                    <hr>
+                    <a href="#"> <iframe src="https://www.mangalashtak.com/img/video.jpg"
+                            style="height: 160px; width: 160px;"></iframe></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid " style="height: 50px; width: 100%; background-color: #222222;">
+            <p class="text-center p-2" style="color:#c7cccc ;">Copyright © 2026Mangalashtak.com - All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,102 @@
+ 
+.navbar{
+     background-color:#e91e63;
+      height: 100px;
+      position: fixed;
+}
+.email{
+     color: black;
+     text-decoration: none;
+}
+.email:hover{
+color:#e91e63 ;
+}
+.navbar-nav{
+     font-weight: 400;
+     font-size:20px;
+}
+.navbar-nav :hover{
+border-bottom: 1px solid white;
+}
+.drop{
+     background-color: #880e4f; 
+     height: 150px;
+}
+.btn1:hover{
+     background-color: #566374;
+}
+.btn1{
+      background-color:#d41b54;
+}
+#searchbtn:hover{
+     background-color:#204370;
+
+}
+#searchbtn{
+      background-color:#337ab7; 
+      font-size:20px;
+       margin-top: 30% !important;
+}
+.comunitysearch a{
+    color:  #566374;
+    font-size: 16px;
+    text-decoration: none;
+}
+.comunitysearch a:hover{
+       color:#e91e63;
+}
+.ft{
+     color:#c7cccc ;
+}
+.ft:hover{
+     color: #e91e63;
+     transform: translatex(20px);
+     transition: 0.3s;
+}
+.btn2{
+      background-color:#5cb85c;
+}
+.btn3{
+     background-color:#d9534f;
+}
+.btn2:hover{
+     background-color: #366b36;
+}
+.btn3:hover{
+     background-color:#8d211e;
+}
+.btn4{
+    background-color: #337ab7;
+}
+.btn4:hover{
+    background-color: #1c476d;
+}
+.btn5{
+     background-color: #d41b54;
+}
+.btn5:hover{
+     background-color: #2f4a61;
+}
+.cards:hover{
+color: #d41b54;
+}
+.btn6{
+     background-color:#d41b54;
+}
+.btn6:hover{
+     background-color: #495e70; 
+}
+.contact{
+     color: #566374;
+}
+.contact:hover{
+     color: #d41b54;
+}
+.coll{
+      color: #566374; 
+      border: none;
+      margin-bottom: 20px;
+}
+.coll:not(.collapsed){
+  color: #d41b54;
+}
